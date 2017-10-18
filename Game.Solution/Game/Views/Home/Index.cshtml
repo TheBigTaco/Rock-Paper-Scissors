@@ -1,3 +1,19 @@
 @{
   Layout = "_Layout";
 }
+
+<form action="/play" method="post">
+  <label for="player1-throw">Player 1</label>
+  <select name="player1-throw">
+    <option value="Rock">Rock</option>
+    <option value="Paper">Paper</option>
+    <option value="Scissors">Scissors</option>
+  </select>
+  <label for="player2-throw">Player 2</label>
+  <select name="player2-throw">
+    <option value="Rock">Rock</option>
+    <option value="Paper">Paper</option>
+    <option value="Scissors">Scissors</option>
+  </select>
+  <button type="submit" name="button">PLAY</button>
+</form>
